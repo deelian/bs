@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script language="javascript" src="/js/jquery-1.4.4.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+<!--//
+$(document).ready(function(){
+ $(window).bind("scroll", function(event){
+  $("div").each(function(){
+   var fold = $(window).height() + $(window).scrollTop();
+   if( fold <= $(this).offset().top){
+    $(this).trigger("appear");
+   }
+  });
+ });
+ 
+ $("div").each(function(){
+  if( $(window).height() > $(this).offset().top){
+   $(this).html("出现在可视区域");
+  }
+  $(this).one("appear",function(){
+   $(this).html("出现在可视区域");
+  });
+ });
+});
+//-->
+</script>
+</head>
+
+<body>
+<div>111</div>
+<div>1111</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div showed = "N">111111111111</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div showed = "N">111111111111</div>
+</body>
+</html>

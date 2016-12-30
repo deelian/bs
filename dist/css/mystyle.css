@@ -1,0 +1,94 @@
+
+a{
+	outline: none !important;
+}
+.navbarfontsize{
+	font-size:20px;
+}
+.searchfontsize{
+	font-size:20px;
+	font-weight: bold;
+}
+.titles{
+	font-size:30px !important;
+	font-weight: bolder;
+	margin-top: 5px;
+}
+#myCarousel{
+	background-color: #000;
+}
+.pull-bottom{
+	margin-bottom: 0px;
+	/*background: #eee;*/
+	height: 100px;
+}
+.tdheight{
+	height: 170px;
+	/*background-color: #ddd;*/
+}
+.aLink{
+	cursor:pointer;
+	text-decoration:none;
+	font-size: 80px;
+	margin: 0 auto;
+}
+a:hover{
+	text-decoration:none;
+}
+.footer{
+	background-color: #101010;
+	width: 100%;
+	color: #ddd;
+	height: 100%;
+	margin-bottom: 0px;
+}
+/*.footer p{
+	margin: 0 auto;
+}*/
+.copyRight{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+/*================================ searchPage =================================*/
+.titlessize{
+	font-size: 30px;
+}
+.detailsize{
+	font-size: 18px;
+	overflow:hidden;
+}
+.updatetimesize{
+	font-size: 18PX;
+}
+
+.plist:hover .hover_bg{
+	height: 100%;
+}
+.h2{
+	font-size:22px !important;
+	font-weight: lighter;
+	margin-top: -20px;
+}
+
+/*返回顶部*/
+.return-top{
+	display: none;
+	position: fixed;
+	right: 0;
+	bottom: 169px;
+	font-size: 16px;
+	width: 100px;
+	height: 100px;
+	background: #101010;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 100px;
+	opacity: 0.7;
+}
+.return-top a{
+	color: #fff;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
